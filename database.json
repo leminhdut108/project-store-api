@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "driver": "pg",
+        "host": "host.docker.internal",
+        "database": "udacity_store_dev",
+        "user": "postgres",
+        "password": "example"
+    },
+    "test": {
+        "driver": "pg",
+        "host": "host.docker.internal",
+        "database": "udacity_store_test",
+        "user": "postgres",
+        "password": "example"
+    }
+}
